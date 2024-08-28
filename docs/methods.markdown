@@ -113,7 +113,7 @@ See: https://developer.android.com/develop/connectivity/bluetooth/companion-devi
 **Examples**
 
 ```js
-BleManager.compationScan([]).then(peripheral => {
+BleManager.companionScan([]).then(peripheral => {
   console.log('Associated peripheral', peripheral);
 });
 ```
